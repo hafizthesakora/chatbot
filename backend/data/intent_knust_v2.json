@@ -1,0 +1,892 @@
+{
+  "intents": [
+    {
+      "intent": "Can I continue application online after deadline has elapsed?",
+      "class": "Admissions",
+      "text": ["Can I continue application online after deadline has elapsed?"],
+      "responses": ["Yes, only If you purchased the form before deadline."]
+    },
+    {
+      "intent": "What do I do when I am unable to progress past the application review stage?",
+      "class": "Admissions",
+      "text": [
+        "What do I do when I am unable to progress past the application review stage?"
+      ],
+      "responses": [
+        "Please review your application and fill in the mandatory fields that are not filled in."
+      ]
+    },
+    {
+      "intent": "What do I do when I get to know I have been admitted (undergraduate)?",
+      "class": "Admissions",
+      "text": [
+        "What do I do when I get to know I have been admitted (undergraduate)?"
+      ],
+      "responses": [
+        "Log on to http://apps.knust.edu.gh/admissions/, click login, confirm your admission and print it out."
+      ]
+    },
+    {
+      "intent": "What is the address for the KNUST admission portal?",
+      "class": "Admissions",
+      "text": ["What is the address for the KNUST admission portal?"],
+      "responses": ["https://apps.knust.edu.gh/admissions/"]
+    },
+    {
+      "intent": "What is the cost of application forms for Foreign students?",
+      "class": "Admissions",
+      "text": ["What is the cost of application forms for Foreign students?"],
+      "responses": [
+        "Hi, Kindly refer to the admission guidelines https://www.knust.edu.gh/admissions/prospective/applying"
+      ]
+    },
+    {
+      "intent": "What should I do with the online print-out I get when I click the submit button on the system?",
+      "class": "Admissions",
+      "text": [
+        "What should I do with the online print-out I get when I click the submit button on the system?"
+      ],
+      "responses": [
+        "Online print-out should be added to the admission forms filled manually and posted through DHL (For International Students )or EMS Delivery Services (for local students)."
+      ]
+    },
+    {
+      "intent": "What type of browser is most efficient when applying Online on the KNUST admission portal?",
+      "class": "Admissions",
+      "text": [
+        "What type of browser is most efficient when applying Online on the KNUST admission portal?"
+      ],
+      "responses": [
+        "Google Chrome | Internet Explorer | Mozilla Firefox | Edge | Safari | Opera\n\nAny modern Browser is supported"
+      ]
+    },
+    {
+      "intent": "When can I check my admission status as a graduate student?",
+      "class": "Admissions",
+      "text": ["When can I check my admission status as a graduate student?"],
+      "responses": [
+        "This is determined by the department running the programme. You'll receive SMS to confirm your admission"
+      ]
+    },
+    {
+      "intent": "When can I check my admission status as an undergraduate student?",
+      "class": "Admissions",
+      "text": [
+        "When can I check my admission status as an undergraduate student?"
+      ],
+      "responses": [
+        "Admission is still ongoing; however, you should check your admission portal frequently for updates. Use the link below.\nhttps://apps.knust.edu.gh/admissions/apply/Account/Login?ReturnUrl=%2Fadmissions%2Fapply%2F"
+      ]
+    },
+    {
+      "intent": "When do we come to school?",
+      "class": "Admissions",
+      "text": ["When do we come to school?"],
+      "responses": [
+        "The exact dates for reporting to school for both freshers and continuing students can be found on the university website under the academic calendar page.\nVisit knust.edu.gh, click on academics, and then on academic calender.\nOr click the following url to go directly there.\nhttps://www.knust.edu.gh/academics/academic-calendar"
+      ]
+    },
+    {
+      "intent": "When do we start the sale of postgraduate application Forms for each successive academic year?",
+      "class": "Admissions",
+      "text": [
+        "When do we start the sale of postgraduate application Forms for each successive academic year?"
+      ],
+      "responses": [
+        "This is determined by the Graduate school based on the programme of interest.\nAdmissions are announced on the KNUST website.\n\nHi, Kindly refer to the admission guidelines https://www.knust.edu.gh/admissions/prospective/applying"
+      ]
+    },
+    {
+      "intent": "When do we start the sale of undergraduate application Forms for each successive academic year?",
+      "class": "Admissions",
+      "text": [
+        "When do we start the sale of undergraduate application Forms for each successive academic year?"
+      ],
+      "responses": [
+        "Dates may differ based on program. Kindly refer to the admission guidelines https://www.knust.edu.gh/admissions/prospective/applying"
+      ]
+    },
+    {
+      "intent": "Where are foreign students accommodated on campus?",
+      "class": "Admissions",
+      "text": ["Where are foreign students accommodated on campus?"],
+      "responses": [
+        "All Foreign Students are accommodated at GUSSS Hostel within the University Campus."
+      ]
+    },
+    {
+      "intent": "Where are Ghanaian students accommodated on campus?",
+      "class": "Admissions",
+      "text": ["Where are Ghanaian students accommodated on campus?"],
+      "responses": [
+        "Hall of residence are as follows: Unity Hall (male), University Hall(male), Africa Hall(female), Independence Hall(mixed), Republic Hall(mixed), Queen's Hall(mixed), Hall Seven(mixed)"
+      ]
+    },
+    {
+      "intent": "Where can I check my admission status as an undergraduate student?",
+      "class": "Admissions",
+      "text": [
+        "Where can I check my admission status as an undergraduate student?"
+      ],
+      "responses": [
+        "Use the same admission portal(apps.knust.edu.gh) and click the check status link."
+      ]
+    },
+    {
+      "intent": "Where can I purchase undergraduate application forms in Ghana?",
+      "class": "Admissions",
+      "text": [
+        "Where can I purchase undergraduate application forms in Ghana?"
+      ],
+      "responses": [
+        "Application forms can be purchased from all Ghana Post Regional and Designated Post Offices, including selected banks."
+      ]
+    },
+    {
+      "intent": "How can I reserve a computer lab for my class or training?",
+      "class": "College/Departmental Websites",
+      "text": ["How can I reserve a computer lab for my class or training?"],
+      "responses": [
+        "You can reserve a computer lab through our ITS Lab Reservation website. It is recommended that you reserve a computer lab at least a week in advance to guarantee your request is approved in a timely manner"
+      ]
+    },
+    {
+      "intent": "How can I update information on our college/departmental website",
+      "class": "College/Departmental Websites",
+      "text": [
+        "How can I update information on our college/departmental website"
+      ],
+      "responses": [
+        "To put any information on your college or department website, please contact your college IT Administrator"
+      ]
+    },
+    {
+      "intent": "I can\u2019t access my Web site, what should I do?",
+      "class": "College/Departmental Websites",
+      "text": ["I can\u2019t access my Web site, what should I do?"],
+      "responses": [
+        "First check if have a network connection.\nThen follow this for links to all Web sites in the University."
+      ]
+    },
+    {
+      "intent": "Is there a choice of what links will appear in the left sidebar menu?",
+      "class": "College/Departmental Websites",
+      "text": [
+        "Is there a choice of what links will appear in the left sidebar menu?"
+      ],
+      "responses": [
+        "Yes. A common set of links are present on most college and departmental sites for consistency's sake and to orient the visitor. Each area inevitably will have the need to provide visitors access to area-specific information"
+      ]
+    },
+    {
+      "intent": "Must every site have Related Links?",
+      "class": "College/Departmental Websites",
+      "text": ["Must every site have Related Links?"],
+      "responses": [
+        "No, Related Links are optional and are used to showcase links to information that might otherwise be difficult to find and/or that would be of interest to visitors of a particular site."
+      ]
+    },
+    {
+      "intent": "Where can I find the link to my Department Web site?",
+      "class": "College/Departmental Websites",
+      "text": ["Where can I find the link to my Department Web site?"],
+      "responses": [
+        "Please follow this for links to all Web sites in the University"
+      ]
+    },
+    {
+      "intent": "Where can I report errors and other issues I find on any university Web site?",
+      "class": "College/Departmental Websites",
+      "text": [
+        "Where can I report errors and other issues I find on any university Web site?"
+      ],
+      "responses": ["Please follow this link to report your issues"]
+    },
+    {
+      "intent": "Where do I go to login to the CMS?",
+      "class": "College/Departmental Websites",
+      "text": ["Where do I go to login to the CMS?"],
+      "responses": ["Please see the following documentation."]
+    },
+    {
+      "intent": "Am I to submit any hardcopy registration slip?",
+      "class": "Course Registration",
+      "text": ["Am I to submit any hardcopy registration slip?"],
+      "responses": [
+        "Inquire from your Department Examinations Officer or Programme Coordinator"
+      ]
+    },
+    {
+      "intent": "Courses have not been set up for me to register. What should I do?",
+      "class": "Course Registration",
+      "text": [
+        "Courses have not been set up for me to register. What should I do?"
+      ],
+      "responses": [
+        "Go to your Department Examinations Officer or Programme Coordinator"
+      ]
+    },
+    {
+      "intent": "How can I correct a mistake with courses registered?",
+      "class": "Course Registration",
+      "text": ["How can I correct a mistake with courses registered?"],
+      "responses": [
+        "Go to apps.knust.edu.gh/students\nLogin\nClick Online Registration\nRe-register\nGo to your Department Examinations Officer or Programme Coordinator\nDownload and install the KNUST Students Android Application from https://apps.knust.edu.gh/knustaim/\nLogin\nClick Course Registration\nRe-register"
+      ]
+    },
+    {
+      "intent": "How do I change my programme option before I register courses?",
+      "class": "Course Registration",
+      "text": [
+        "How do I change my programme option before I register courses?"
+      ],
+      "responses": [
+        "Go to your Department Examinations Officer or Programme Coordinator"
+      ]
+    },
+    {
+      "intent": "How do I print my registration slip again after it is lost or destroyed?",
+      "class": "Course Registration",
+      "text": [
+        "How do I print my registration slip again after it is lost or destroyed?"
+      ],
+      "responses": [
+        "Go to apps.knust.edu.gh/students\nLogin\nClick Registration Slip\nSelect to academic year and semester of interest\nFollow the instructions"
+      ]
+    },
+    {
+      "intent": "How do I register a borrowed course in addition to my default causes?",
+      "class": "Course Registration",
+      "text": [
+        "How do I register a borrowed course in addition to my default causes?"
+      ],
+      "responses": [
+        "Go to your Department Examinations Officer or Programme Coordinator"
+      ]
+    },
+    {
+      "intent": "How do I register a borrowed course in addition to my default causes? How do I defer a course already registered for the semester?",
+      "class": "Course Registration",
+      "text": [
+        "How do I register a borrowed course in addition to my default causes? How do I defer a course already registered for the semester?"
+      ],
+      "responses": [
+        "If online registration is ongoing, go to the Course Registration view of your portal and defer. \nIf online registration is over, see your Department Examinations Officer or Programme Coordinator"
+      ]
+    },
+    {
+      "intent": "How do I register courses for the semester?",
+      "class": "Course Registration",
+      "text": ["How do I register courses for the semester?"],
+      "responses": [
+        "Go to apps.knust.edu.gh/students\nLogin\nClick Online Registration\nFollow the instructions\nGo to your Department Examinations Officer or Programme Coordinator\nDownload and install the KNUST Students Android Application from https://apps.knust.edu.gh/knustaim/\nLogin\nClick Course Registration\nFollow the instructions"
+      ]
+    },
+    {
+      "intent": "How do I submit my registration slip after registration?",
+      "class": "Course Registration",
+      "text": ["How do I submit my registration slip after registration?"],
+      "responses": [
+        "Your registration slip will be submitted electronically to the school and a copy will be sent to your inbox."
+      ]
+    },
+    {
+      "intent": "I am expected to change my programme option myself to continue registration. How do I do that?",
+      "class": "Course Registration",
+      "text": [
+        "I am expected to change my programme option myself to continue registration. How do I do that?"
+      ],
+      "responses": [
+        "Students Portal: Go to the Programme Information page and change your option, if enabled.\nKNUST Aim: Go to Registration and go to change option."
+      ]
+    },
+    {
+      "intent": "I do not have clearance to register online since I have fee arrears. What should I do?",
+      "class": "Course Registration",
+      "text": [
+        "I do not have clearance to register online since I have fee arrears. What should I do?"
+      ],
+      "responses": [
+        "Go to the Students\u2019 Section of the Main Finance Office to seek clearance"
+      ]
+    },
+    {
+      "intent": "I have issues with minimum/maximum credit for the set courses. What do I do?",
+      "class": "Course Registration",
+      "text": [
+        "I have issues with minimum/maximum credit for the set courses. What do I do?"
+      ],
+      "responses": ["Contact your examinations officer or department"]
+    },
+    {
+      "intent": "I have issues with selecting courses from elective sets. What do I do?",
+      "class": "Course Registration",
+      "text": [
+        "I have issues with selecting courses from elective sets. What do I do?"
+      ],
+      "responses": ["Contact your examinations officer or department."]
+    },
+    {
+      "intent": "I have minimum/maximum credit issues with course registration. What should I do?",
+      "class": "Course Registration",
+      "text": [
+        "I have minimum/maximum credit issues with course registration. What should I do?"
+      ],
+      "responses": [
+        "Go to your Department Examinations Officer or Programme Coordinator"
+      ]
+    },
+    {
+      "intent": "What happens when I contact the E-learning Support Centre?",
+      "class": "E-learning",
+      "text": ["What happens when I contact the E-learning Support Centre?"],
+      "responses": [
+        "There are three ways you can contact the E-learning Support Centre.\nIf you contact us by phone:\n  1. You can be sure a technician will be able to reach you if you write down your contact information.\n  2. We will obtain all the details you need to fully understand the situation and resolve them.\n  3. Following the assignment of your ticket, you will get an email with the ticket details if a call ticket is issued.\n  4. You'll hear from a technician.\nIf you enter your issue via the web, we will:\n  1. Check the data you provided, and if more information is required, get in touch with you.\n  2. Send your ticket to the proper department, or have someone call you to discuss the problem.\n  3. Send an email including the ticket details if a call ticket is produced.\n  4. You'll hear from a technician.\nIf you can contact us via email, we will:\n1. Review the email and provide information in response OR\n2. When you enter a call ticket, you will receive an email containing the ticket's details.\nIf you manage to resolve your problem on your own, or you are no longer having the problem, please call the E-learning Support Centre so we can update your call ticket information. You can call the E-learning Support Centre at any time to change or update your call ticket information."
+      ]
+    },
+    {
+      "intent": "What is the e-mail address for the E-learning Support Centre?",
+      "class": "E-learning",
+      "text": ["What is the e-mail address for the E-learning Support Centre?"],
+      "responses": [
+        "The E-learning Support Centre e-mail address is knusts22@gmail.com. "
+      ]
+    },
+    {
+      "intent": "What is the phone number to the E-learning Support Centre?",
+      "class": "E-learning",
+      "text": ["What is the phone number to the E-learning Support Centre?"],
+      "responses": [
+        "The E-learning Support Centre can be reached from any on-campus phone by dialling VoIP 440109/440111. \nPhones located off-campus, including cell phones, will need to dial  +233 24 507 7483 in order to reach the Support Centre. "
+      ]
+    },
+    {
+      "intent": "What services does the E-learning Support Centre offer?",
+      "class": "E-learning",
+      "text": ["What services does the E-learning Support Centre offer?"],
+      "responses": [
+        "Support for IT services\nEmail setup\nKNUST password assistance\nStudent portal login issues\nWIFI connectivity\nStudent Registration\nVirtual Classroom\nZoom Guidelines"
+      ]
+    },
+    {
+      "intent": "Where is the E-learning Support Centre Located?",
+      "class": "E-learning",
+      "text": ["Where is the E-learning Support Centre Located?"],
+      "responses": [
+        "The E-learning Support Centre is located at the ground floor of the Evans Anfom Auditorium (CCB auditorium). "
+      ]
+    },
+    {
+      "intent": "Who is eligible to benefit from the services provided by the E-learning Support Centre?",
+      "class": "E-learning",
+      "text": [
+        "Who is eligible to benefit from the services provided by the E-learning Support Centre?"
+      ],
+      "responses": [
+        "The E-learning Support Centre is open to anyone who requires assistance."
+      ]
+    },
+    {
+      "intent": "What happens when I contact the Help Desk?",
+      "class": "Helpdesk",
+      "text": ["What happens when I contact the Help Desk?"],
+      "responses": [
+        "If you contact us by phone, we will:\nRecord your contact information, which ensures that a technician will be able to get into contact with you.\nGather complete information about your issue and troubleshoot the problem if appropriate.\nIf a call ticket is issued, you will receive an email with the ticket information after your ticket is assigned.\nA technician will contact you.\nIf you enter your issue via the web, we will:\nReview the information you entered and contact you to clarify if necessary.\nEither call you to resolve the issue or send your ticket to the appropriate department.\nIf a call ticket is issued, you will receive an email with the ticket information.\nA technician will contact you.\nIf you can contact us via email, we will:\nReview the email and respond with information OR\nEnter a call ticket, at which point you will get an email with the ticket information.\nIf you manage to resolve your problem on your own, or you are no longer having the problem, please call the Help Desk so we can update your call ticket information. You can call the Help Desk at any time to change or update your call ticket information."
+      ]
+    },
+    {
+      "intent": "What is the e-mail address for the Help Desk?",
+      "class": "Helpdesk",
+      "text": ["What is the e-mail address for the Help Desk?"],
+      "responses": [
+        "The KNUST Helpdesk can also be contacted via e-mail from any computer with a valid internet connection. The KNUST Helpdesk e-mail address is helpdesk@knust.edu.gh This e-mail address is checked multiple times throughout the day even on holidays. Therefore, a user can contact the Student Helpdesk anytime and expect a prompt and professional response to their inquiry."
+      ]
+    },
+    {
+      "intent": "What is the phone number to the Help Desk?",
+      "class": "Helpdesk",
+      "text": ["What is the phone number to the Help Desk?"],
+      "responses": [
+        "The KNUST Helpdesk can be reached from any on-campus phone by dialing VoIP 17026/35511. Phones located off-campus, including cell phones, will need to dial 03220-63655 in order to reach the helpdesk. A Student Helpdesk Support Technician will answer the call during hours. If the user is calling in after hours, they will need to leave a detailed message that includes their name, a phone number where they can be reached, and a brief description of the issue."
+      ]
+    },
+    {
+      "intent": "What services does the Help Desk offer?",
+      "class": "Helpdesk",
+      "text": ["What services does the Help Desk offer?"],
+      "responses": [
+        "Network troubleshooting and configuration\nSupport for IT services\nBasic hardware troubleshooting\nComputer performance issues\nVirus scan and malware detection\nEmail setup\nKNUST password assistance\nTechnical questions\nComputer network connectivity questions\nAccount/login issues"
+      ]
+    },
+    {
+      "intent": "Who is eligible to benefit from the services provided by the Help Desk",
+      "class": "Helpdesk",
+      "text": [
+        "Who is eligible to benefit from the services provided by the Help Desk"
+      ],
+      "responses": [
+        "The KNUST Helpdesk is responsible for providing technical support and troubleshooting services to all Staff and Students who are able to present a valid student ID prior to services being provided."
+      ]
+    },
+    {
+      "intent": "Can I access results for past semesters?",
+      "class": "KNUST Students' Portal",
+      "text": ["Can I access results for past semesters?"],
+      "responses": [
+        "Yes. Go to the students portal, login and click the Check Results icon"
+      ]
+    },
+    {
+      "intent": "How do I get my username and password?",
+      "class": "KNUST Students' Portal",
+      "text": ["How do I get my username and password?"],
+      "responses": [
+        "Your username and password are given to you upon confirmation of your admission via SMS. Check your phone\u2019s SMS inbox for the message with the sender ID \u2018KNUST\u2019\nClick HERE and enter your student number, a reset link will be sent to your email. ( The email you provided during your admission application).\nVisit the UITS support center (at the basement of the Casely-Hayford building or Prempeh II Library ICT Center) with your student ID card or admission letter."
+      ]
+    },
+    {
+      "intent": "How do I logon to KNUST Students' Portal? What's my username and password?",
+      "class": "KNUST Students' Portal",
+      "text": [
+        "How do I logon to KNUST Students' Portal? What's my username and password?"
+      ],
+      "responses": [
+        "Students can access their students' portal by logging on to\nhttps://apps.knust.edu.gh/students/, or by downloading the KNUST AIM app on google play store.\nYour Username and password is the credential given to you by the university to have access to your students' portal and other services offered by the university to students."
+      ]
+    },
+    {
+      "intent": "How do I Use the KNUST AIM?",
+      "class": "KNUST Students' Portal",
+      "text": ["How do I Use the KNUST AIM?"],
+      "responses": ["Watch this short video"]
+    },
+    {
+      "intent": "How many times am I supposed to register for courses?",
+      "class": "KNUST Students' Portal",
+      "text": ["How many times am I supposed to register for courses?"],
+      "responses": [
+        "Course registration is done on semester bases except for some programmes in the School of Medicine and Dentistry"
+      ]
+    },
+    {
+      "intent": "I forgot my password to the KNUST Students' Portal. What do I do?",
+      "class": "KNUST Students' Portal",
+      "text": [
+        "I forgot my password to the KNUST Students' Portal. What do I do?"
+      ],
+      "responses": [
+        "To reset your student credentials kindly follow the these steps.\n1.Go to https://apps.knust.edu.gh/students\n2. Click on forgot password? or click HERE\n3. Enter your student reference number, you'll be notified via email, a reset link will be sent to your personal email ( address will be shown to you )\n4. Click on \"continue\" and check your email. ( reset link has been sent to \"your mail\". Please check this email to complete the process).\n\nIf you do not see the email in your inbox, kindly check your spam folder. To help ensure that you receive all e-mail messages from the UITS, please add appsupport@knust.edu.gh and helpdesk@knust.edu.gh to your address book or contacts list.)\n\nIn the event that you are not able to generate your credentials, please visit the UITS support office at the basement Casely Hayford Building (Exams Hall Complex)."
+      ]
+    },
+    {
+      "intent": "I'm trying to register my courses and the system tells me I do not have clearance to register. Why?",
+      "class": "KNUST Students' Portal",
+      "text": [
+        "I'm trying to register my courses and the system tells me I do not have clearance to register. Why?"
+      ],
+      "responses": [
+        "This could be due to a number of reasons;\nYou have not made full payment of fees, hence, tagged as owing fees\nYou did not register on or before the due date for registration.\nContact your exams officer to have your peculiar issue resolved"
+      ]
+    },
+    {
+      "intent": "The system is not displaying my grades and/or courses.",
+      "class": "KNUST Students' Portal",
+      "text": ["The system is not displaying my grades and/or courses."],
+      "responses": [
+        "Your Grades or Courses have not been uploaded yet into the system or you haven't assessed your lecturers for the various courses .If it persists, contact your exams officer."
+      ]
+    },
+    {
+      "intent": "What are the requirements for results checking?",
+      "class": "KNUST Students' Portal",
+      "text": ["What are the requirements for results checking?"],
+      "responses": [
+        "Student should have paid feed in full\nWhere required, student should have assessed Lecturers for responsible for courses taken for that semester. This is done online\nStudent should have no tag assigned him or her"
+      ]
+    },
+    {
+      "intent": "What can I do on the students\u2019 portal?",
+      "class": "KNUST Students' Portal",
+      "text": ["What can I do on the students\u2019 portal?"],
+      "responses": [
+        "Update personal information\nCourse registration\nPrinting of course registration slip\nCheck semester results\nCheck biometric registration status\nCheck fees information\nAssess Lecturers\nCheck graduation status"
+      ]
+    },
+    {
+      "intent": "What else can I access with my student credentials?",
+      "class": "KNUST Students' Portal",
+      "text": ["What else can I access with my student credentials?"],
+      "responses": ["Student Email Services\nLibrary Services\nVirtual Class"]
+    },
+    {
+      "intent": "What is my student reference number?",
+      "class": "KNUST Students' Portal",
+      "text": ["What is my student reference number?"],
+      "responses": [
+        "The same as your application number. This starts with two(2) and is an eight digit number for example 20344345"
+      ]
+    },
+    {
+      "intent": "What will happen if I delay in registering my courses?",
+      "class": "KNUST Students' Portal",
+      "text": ["What will happen if I delay in registering my courses?"],
+      "responses": [
+        "For each day that has elapsed, you will pay a fine for late registration."
+      ]
+    },
+    {
+      "intent": "When can I check my results?",
+      "class": "KNUST Students' Portal",
+      "text": ["When can I check my results?"],
+      "responses": ["After it has been approved by the department"]
+    },
+    {
+      "intent": "Where can I check my results?",
+      "class": "KNUST Students' Portal",
+      "text": ["Where can I check my results?"],
+      "responses": [
+        "Online on the students portal\nOn the Students AIM Android application. \nAt the office of your Examinations Officer (Departmental, Faculty or College)"
+      ]
+    },
+    {
+      "intent": "Call Barred error message, I cannot make or receive calls",
+      "class": "KNUST Vodafone Package",
+      "text": ["Call Barred error message, I cannot make or receive calls"],
+      "responses": [
+        "Call 0322045888 / 0302982512 to speak to a Vodafone customer service agent."
+      ]
+    },
+    {
+      "intent": "I am not receiving text messages from on my School Vodafone number, what should I do?",
+      "class": "KNUST Vodafone Package",
+      "text": [
+        "I am not receiving text messages from on my School Vodafone number, what should I do?"
+      ],
+      "responses": [
+        "Visit the IT Support Centre, located at the basement of Casely Hayford Building for an update of your Vodafone number.\nOr call on 0322063655."
+      ]
+    },
+    {
+      "intent": "I am using the same number with another student, what should I do?",
+      "class": "KNUST Vodafone Package",
+      "text": [
+        "I am using the same number with another student, what should I do?"
+      ],
+      "responses": [
+        "A. Visit the IT Support Centre, located at the basement of Casely Hayford Building and report it.\nB. Or call on 0322063655"
+      ]
+    },
+    {
+      "intent": "I do not receive my monthly package, what should I do?",
+      "class": "KNUST Vodafone Package",
+      "text": ["I do not receive my monthly package, what should I do?"],
+      "responses": [
+        "A. Call 0322045888 / 0302982512 to speak to a Vodafone customer service agent.\nB. Visit the IT Support Centre, located at the basement of Casely Hayford Building and report it."
+      ]
+    },
+    {
+      "intent": "I don\u2019t know/remember my Vodafone number, how do I find it?",
+      "class": "KNUST Vodafone Package",
+      "text": [
+        "I don\u2019t know/remember my Vodafone number, how do I find it?"
+      ],
+      "responses": [
+        "You can do any of the following;\n\nA. Dial *127# on your mobile handset to show your number\n\nB. If you have installed the Academic Info Manager Android App (AIM);\ni.Press the profile menu icon.\n\nii.Scroll down to the Phone number section.\n\niii.You will find the number under the KNUST Mobile Number\n\nC. You can also visit the KNSUT Student portal (apps.knust.edu.gh) on your internet browser and follow these steps;\n\ni.Click on the \u2018Students\u2019 button\n\nii.Log in with your username and password\n\niii.On the personal information page that welcomes you, you will find your number under the KNUST Vodafone number field."
+      ]
+    },
+    {
+      "intent": "I don\u2019t want the package on my personal number anymore",
+      "class": "KNUST Vodafone Package",
+      "text": ["I don\u2019t want the package on my personal number anymore"],
+      "responses": [
+        "A. Contact the IT Support Centre Manager at the Examination Hall Complex, Basement. You can also speak to him on 0322063655.\n\nB. Or Call 0322045888 to speak to a Vodafone customer service agent."
+      ]
+    },
+    {
+      "intent": "I have lost my Vodafone SIM card, where can I get replacement",
+      "class": "KNUST Vodafone Package",
+      "text": ["I have lost my Vodafone SIM card, where can I get replacement"],
+      "responses": [
+        "A. You can get a replacement SIM card from either the Vodafone Retail Shop (Vodafone Caf\u00e9) at the College of Engineering.\nB. Or the Vodafone Retail Shop at the Commercial Area. Replacement cost is Ghc 3.00\nC.If you are a continuing student, you should go along with your student ID Card.\nD.If you are a freshman without your Student ID card, kindly go along with a hard copy of your provisional offer letter of admission."
+      ]
+    },
+    {
+      "intent": "I have not collected my SIM card, where can I get it.",
+      "class": "KNUST Vodafone Package",
+      "text": ["I have not collected my SIM card, where can I get it."],
+      "responses": [
+        "A. You can collect your SIM card from the IT Support Centre (Examination Hall Complex, Basement) between the hours of 8:00am and 5:00pm, from Monday to Friday.\nB. If you are a freshman, you should go along with a hard copy of your provisional offer letter of admission.\nC. If you are a continuing student, you should go along with your student ID Card."
+      ]
+    },
+    {
+      "intent": "I have the package but I cannot make calls or use the data bundle",
+      "class": "KNUST Vodafone Package",
+      "text": [
+        "I have the package but I cannot make calls or use the data bundle"
+      ],
+      "responses": [
+        "A. Contact the IT Support Centre Manager at the Examination Hall Complex, Basement. You can also speak to him on 0322063655\n.\nB. Or Call 0322045888 to speak to a Vodafone customer service agent"
+      ]
+    },
+    {
+      "intent": "I want to transfer the package onto my personal Vodafone number",
+      "class": "KNUST Vodafone Package",
+      "text": [
+        "I want to transfer the package onto my personal Vodafone number"
+      ],
+      "responses": [
+        "A. Visit the IT Support Centre, located at the basement of Casely Hayford Building and indicate why.\nB. Or call on 0322063655."
+      ]
+    },
+    {
+      "intent": "My network shows emergency calls only",
+      "class": "KNUST Vodafone Package",
+      "text": ["My network shows emergency calls only"],
+      "responses": [
+        "A. Contact the IT Support Centre Manager at the Examination Hall Complex, Basement. You can also speak to him on 0322063655.\n\nB. Or Call 0322045888 to speak to a Vodafone customer service agent."
+      ]
+    },
+    {
+      "intent": "Can I pay my fees via mobile money?",
+      "class": "Student bills and payments",
+      "text": ["Can I pay my fees via mobile money?"],
+      "responses": [
+        "Yes, Please Click here to make payments via mobile money platforms."
+      ]
+    },
+    {
+      "intent": "How do I make payment via debit / credit card",
+      "class": "Student bills and payments",
+      "text": ["How do I make payment via debit / credit card"],
+      "responses": [
+        "Yes, Please Click here to make payments via mobile money platforms."
+      ]
+    },
+    {
+      "intent": "Which financial institutions have been accredited for fee payment?",
+      "class": "Student bills and payments",
+      "text": [
+        "Which financial institutions have been accredited for fee payment?"
+      ],
+      "responses": [
+        "Ecobank\nFidelity bank\nHfC bank\nUniversal Merchant Bank\nUBA\nAccess Bank\nGCB\nUnibank"
+      ]
+    },
+    {
+      "intent": "How can I correct a mistake in the courses I registered?",
+      "class": "Student Registration",
+      "text": ["How can I correct a mistake in the courses I registered?"],
+      "responses": [
+        "Log on to http://apps.knust.edu.gh/students/Account/login or use the KNUST Aim app(download on playstore or appstore) and re-register so long as the registration window is still open."
+      ]
+    },
+    {
+      "intent": "How can I know my fee balance?",
+      "class": "Student Registration",
+      "text": ["How can I know my fee balance?"],
+      "responses": [
+        "Students portal: Click the fee icon on dashboard and click transactions OR\nKNUST Aim: Use the fee icon and go to transactions.\nRequest your balance at your college finance office."
+      ]
+    },
+    {
+      "intent": "I haven\u2019t paid my fees in full. What do I do?",
+      "class": "Student Registration",
+      "text": ["I haven\u2019t paid my fees in full. What do I do?"],
+      "responses": [
+        "Top up fees at any of the accredited financial institutions nationwide OR Pay online at https://pay.knust.edu.gh/student either by mobile money, visa, mastercard or ghlink OR Report to the school and seek clearance from the Main FInance Officer."
+      ]
+    },
+    {
+      "intent": "Is a PhD Student supposed to register courses?",
+      "class": "Student Registration",
+      "text": ["Is a PhD Student supposed to register courses?"],
+      "responses": [
+        "Contact your Department Examinations Officer or Programme Coordinator for a befitting response."
+      ]
+    },
+    {
+      "intent": "Is course registration and biometric registration related?",
+      "class": "Student Registration",
+      "text": ["Is course registration and biometric registration related?"],
+      "responses": [
+        "Yes. You will have to be registered biometrically as a requirement to course registration for the semester."
+      ]
+    },
+    {
+      "intent": "Is it compulsory for every student to undergo biometric registration?",
+      "class": "Student Registration",
+      "text": [
+        "Is it compulsory for every student to undergo biometric registration?"
+      ],
+      "responses": [
+        "Yes. Except for certain programmes who have been given waivers"
+      ]
+    },
+    {
+      "intent": "My courses have not been set up. What do I do?",
+      "class": "Student Registration",
+      "text": ["My courses have not been set up. What do I do?"],
+      "responses": ["Contact your examinations officer or department."]
+    },
+    {
+      "intent": "What is the importance of biometric registration?",
+      "class": "Student Registration",
+      "text": ["What is the importance of biometric registration?"],
+      "responses": [
+        "It is the University\u2019s mechanism of determining the physical presence of a student in school. This is required of all students except those on external research."
+      ]
+    },
+    {
+      "intent": "What will happen if I fail to register on time?",
+      "class": "Student Registration",
+      "text": ["What will happen if I fail to register on time?"],
+      "responses": [
+        "Failure to register on time results in a penalty for three(3) additional days after the official  registration period.  When the process is not completed within this period, the affected\nstudent shall not be registered for that academic year.\nFor more information on university rules concerning registration,  click here to download the KNUST Student guide."
+      ]
+    },
+    {
+      "intent": "Where can I register biometrically after the general window is closed?",
+      "class": "Student Registration",
+      "text": [
+        "Where can I register biometrically after the general window is closed?"
+      ],
+      "responses": [
+        "Contact the UITS(at the top floor of the Casely-Hayford building) for assistance"
+      ]
+    },
+    {
+      "intent": "Which student is eligible to register courses?",
+      "class": "Student Registration",
+      "text": ["Which student is eligible to register courses?"],
+      "responses": [
+        "Students who have fulfilled their financial obligation towards the study of their programme. \nStudents who have been duly cleared by the finance officer because they have arrears to settle."
+      ]
+    },
+    {
+      "intent": "Who can register courses?",
+      "class": "Student Registration",
+      "text": ["Who can register courses?"],
+      "responses": [
+        "Students who have paid their fees in full and have to tags."
+      ]
+    },
+    {
+      "intent": "I have lost My ID Card, what do I do?",
+      "class": "Students ID Card",
+      "text": ["I have lost My ID Card, what do I do?"],
+      "responses": [
+        "Visit the Quality Assurance and Planning Unit, Located next to the Main Administration for assistance in replacing your ID Card."
+      ]
+    },
+    {
+      "intent": "Is my student ID card still valid after school?",
+      "class": "Students ID Card",
+      "text": ["Is my student ID card still valid after school?"],
+      "responses": [
+        "Valid as an identification card\nValid as a financial transaction card\nNot valid as an access control card\nNot valid for accessing library services"
+      ]
+    },
+    {
+      "intent": "What do I use the student ID card for?",
+      "class": "Students ID Card",
+      "text": ["What do I use the student ID card for?"],
+      "responses": [
+        "Identification\nAccess Control\nFinancial Card (Master Card, Debit, Credit). \nLibrary Services - Copy and Print, Borrowing of books"
+      ]
+    },
+    {
+      "intent": "I don't have a university email address. How can I get one?",
+      "class": "University Email",
+      "text": ["I don't have a university email address. How can I get one?"],
+      "responses": [
+        "KNUST email addresses are given to valid members of staff.\nProvide your staff ID card at any of the following channels to obtain an email address.\n1. Your College IT Administrator\n2. The UITS Directorate (last floor, examination complex, Casely-Hayford building)"
+      ]
+    },
+    {
+      "intent": "How do I upload an Assignment",
+      "class": "Virtual Classroom",
+      "text": ["How do I upload an Assignment"],
+      "responses": ["Please watch this video on how to upload assignments"]
+    },
+    {
+      "intent": "I\u2019ve forgotten my user credentials, what do I do?",
+      "class": "Virtual Classroom",
+      "text": ["I\u2019ve forgotten my user credentials, what do I do?"],
+      "responses": [
+        "Visit http://apps.knust.edu.gh/students\n\nClick on forgotten password and follow the procedure to retrieve your credentials.\n\nOr click here: http://apps.knust.edu.gh/students/Account/ForgotPassword and follow the procedure to retrieve your credentials."
+      ]
+    },
+    {
+      "intent": "What do I do when I get user account is not available on this site when I try to access Vclass?",
+      "class": "Virtual Classroom",
+      "text": [
+        "What do I do when I get user account is not available on this site when I try to access Vclass?"
+      ],
+      "responses": [
+        "1.Create a ticket and include your student number (20******). \nOR\n2. Visit the SUPPORT CENTRE at the basement of the CASELEY HAYFORD BUILDING."
+      ]
+    },
+    {
+      "intent": "What do I do when I get invalid login when I try to access Vclass?",
+      "class": "Virtual Classroom",
+      "text": [
+        "What do I do when I get invalid login when I try to access Vclass?"
+      ],
+      "responses": [
+        "Kindly reset your student credential password and log in again."
+      ]
+    },
+    {
+      "intent": "\u2022 How do I connect to Virtual Classroom?",
+      "class": "Virtual Classroom",
+      "text": ["\u2022 How do I connect to Virtual Classroom?"],
+      "responses": [
+        "Visit\nhttp://myclass.knust.edu.gh/\nand log in with your KNUST credentials"
+      ]
+    },
+    {
+      "intent": "How do I connect my Android device to the wireless internet?",
+      "class": "Wifi Connectivity",
+      "text": ["How do I connect my Android device to the wireless internet?"],
+      "responses": [
+        "STEP 1: Go to Settings on your Andriod device and select WIFI or WIFI Connection.\n\nSTEP 2: Click on the KNUST WIFI to configure your device for use.\n\nSTEP 3: Select Advanced options. You should see the options to configure such as EAP method etc.\n\nSTEP 4: Under EAP Method > choose TTLS, Under Phase 2 authentication > choose PAP. Every other setting should be left as they are.\n\n(b) Some selected android phones do not have the configuration settings in advanced options. For such devices, the EAP method and phase 2 authentication can be found immediately you click on the KNUST WIFI.\n\nSTEP 5: Now enter your username and password in the space provided under identity and password respectively. Note, for anonymous identity, you can put your first name there or leave blank\n\nSTEP 6: Ensure the credentials are properly inputed and connect. Your device should be connected.\n\nNote: For rare cases where the connect button seems to be inactive, in the same location for step 4 (a and b), under CA certificate, make sure you select \"do not validate\", your connect button will become active."
+      ]
+    },
+    {
+      "intent": "How do I connect my Apple computer to the wireless Internet?",
+      "class": "Wifi Connectivity",
+      "text": ["How do I connect my Apple computer to the wireless Internet?"],
+      "responses": [
+        "Click here to follow the link and instructions\nhelpdesk.knust.edu.gh/wifi"
+      ]
+    },
+    {
+      "intent": "How do I connect my iPhone/iPod to the wireless Internet?",
+      "class": "Wifi Connectivity",
+      "text": ["How do I connect my iPhone/iPod to the wireless Internet?"],
+      "responses": [
+        "Click here to follow the link and instructions\nhelpdesk.knust.edu.gh/wifi"
+      ]
+    },
+    {
+      "intent": "How do I connect my Windows 7 computer to the wireless Internet?",
+      "class": "Wifi Connectivity",
+      "text": [
+        "How do I connect my Windows 7 computer to the wireless Internet?"
+      ],
+      "responses": [
+        "1. Download the SecureW2 software from the attachment below.\n\n2. Run the application using the default settings on the application and reboot your computer after completion.\n\n3. Open network and sharing center, or simply search for it in the search bar.\n\n4. Click on \"Manage wireless networks\" at the top left corner.\n\n5. Next you click on \"Add\"\n\n6. A new window opens asking you how you want to add a network, click on \"Manually create network profile.\"\n\n7. Use the following details below and click \"Next\"\n* Network name : KNUST WIFI\n* security type : WPA2-Enterprise\n* Encryption type : AES\n* Select \"Start this connection automatically\"\n* Select \"Connect even if the network is not broadcasting\"\n\n8. Next you click on \"Change connection settings\".\n\n9. Under the \"KNUST WIFI Wireless Network Properties\", select the following and under the \"connection\" tab\n* \"Connect automatically when this network is in range\"\n* \"Connect even if the network is not broadcasting its name (SSID)\"\n\n10. Under the \"Security\" tab and under \"Choose a network authentication method\" choose \"SecureW2: SecureW2 EAP-TTLS\" and then click on then click on \"settings\" to open to the \"SecureW2 configuration.\"\n\n11. Under the \"DEFAULT\" profile, click on \"Configure\"\n\n12. Under the \"Connection\" tab, uncheck the \"use alternative outer identity\" box and click on the \"Certificates\" tab.\n\n13. Under the \"Certificates\" tab, uncheck the \"Verify server Certificate\" box and click on the \"Authentication\" tab.\n\n14. Under the \"Authentication\" tab, select \"PAP\" as the \"Authentication Method\" box and click on the \"User account\" tab\n\n15. Under the \"User Account\", you can either\na. Uncheck the \"prompt user for credentials\" box, fill in your \"Username\" and \"Password\" and click on \"OK\" or\nb. Check the \"prompt user for credentials\" box and click on \"OK\" as this is recommended for public access computers\n\n16. If 15.a is selected, you should be connected automatically to the \"KNUST WIFI\"\n\n17. If 15.b is selected, you will see the prompt upon connection to the \"KNUST WIFI asking for your \"Username\" and \"Password\""
+      ]
+    },
+    {
+      "intent": "How do I connect my Windows 8 computer to the wireless Internet?",
+      "class": "Wifi Connectivity",
+      "text": [
+        "How do I connect my Windows 8 computer to the wireless Internet?"
+      ],
+      "responses": [
+        "Search from your list of available WIFI networks\nChoose KNUST WIFI in your list of wireless networks\nEnter your KNUST Credentials when asked.\nThe WIFI connection will then be established\nIn case of any problems, visit the uits directorate(casely hayford building last floor or the ict center-main library)"
+      ]
+    }
+  ]
+}
